@@ -84,4 +84,48 @@ public class Guest {
 		return bill;
 	}
 
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public void setIDnumber(int iDnumber) {
+		IDnumber = iDnumber;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public void setRoomNumber(int roomNumber) {
+		this.roomNumber = roomNumber;
+	}
+
+	public void setRoomType(String roomType) {
+		this.roomType = roomType;
+	}
+
+	public void setTimeCheckedin(String timeCheckedin) {
+		this.timeCheckedin = timeCheckedin;
+	}
+
+	public void setBill(double bill) {
+		this.bill = bill;
+	}
+
 }
